@@ -27,6 +27,7 @@
     <odooWarehouseVersion>1.0.0</odooWarehouseVersion>
     <odooSaleDeliveryStatusVersion>14.0.1.0.0</odooSaleDeliveryStatusVersion>
     <odooSalePaymentStatusVersion>14.0.1.0.0</odooSalePaymentStatusVersion>
+    <odooArchiveLotNumbersVersion>1.0.0-SNAPSHOT</odooArchiveLotNumbersVersion>
 
     <distro.odooAddonsDir>${distro.baseDir}/odoo_addons</distro.odooAddonsDir>
     <distro.odooconfigDir>${distro.baseDir}/odoo_config</distro.odooconfigDir>
@@ -85,6 +86,12 @@
       <groupId>net.mekomsolutions.odoo</groupId>
       <artifactId>sotto_sale_payment_status</artifactId>
       <version>${odooSalePaymentStatusVersion}</version>
+      <type>zip</type>
+    </dependency>
+    <dependency>
+      <groupId>com.ozonehis</groupId>
+      <artifactId>odoo-archive-lot-numbers</artifactId>
+      <version>${odooArchiveLotNumbersVersion}</version>
       <type>zip</type>
     </dependency>
   </dependencies>
